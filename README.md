@@ -22,5 +22,14 @@ _Coming soon!_
 
 ## Citation
 
-_Citation will be available on October 29th!_
-
+```bibtex
+@misc{TUSNet,
+      title={A deep-learning model for one-shot transcranial ultrasound simulation and phase aberration correction}, 
+      author={Kasra Naftchi-Ardebili and Karanpartap Singh and Gerald R. Popelka and Kim Butts Pauly},
+      year={2024},
+      eprint={2410.19995},
+      archivePrefix={arXiv},
+      primaryClass={physics.med-ph},
+      url={https://arxiv.org/abs/2410.19995}, 
+}
+```
