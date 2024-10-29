@@ -22,8 +22,10 @@ _Coming soon!_
 
 ## Citation
 
+If you found TUSNet helpful in your own work, please cite it using the following code:
+
 ```bibtex
-@misc{TUSNet,
+@misc{TUSNet2024,
       title={A deep-learning model for one-shot transcranial ultrasound simulation and phase aberration correction}, 
       author={Kasra Naftchi-Ardebili and Karanpartap Singh and Gerald R. Popelka and Kim Butts Pauly},
       year={2024},
