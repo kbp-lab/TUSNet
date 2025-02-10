@@ -18,13 +18,15 @@ Transcranial ultrasound (TUS) has emerged as a promising tool in clinical and re
 
 ## Getting Started
 
+You can download the PyTorch weights for the models presented in the paper [here](https://figshare.com/articles/software/TUSNet_PyTorch_Model/28373912?file=52210781), with the `TUSNet - Inference.ipynb` notebook providing an overview of how to inference the model. All model training and evaluation functions are located in the `src/` folder. 
+
 _Coming soon!_
 
 ## Datasets
 
 A small subset of our primary training data is available [here](https://figshare.com/articles/dataset/TUSNet_Training_Simulations/28102640). The `inputs` consist of solely the Skull CT slices used for our simulations, while the `inputs_traced` contain these CTs plus the transducer and waveguides described in the paper (hence these samples comprise the complete input to the model), and finally the 'pfields' contain, in this order, the 512x512 pressure field, 80 dimensional phase correction vector, and scalar pressure field normalization factor (the maximum value present in the pressure field).
 
-Along with this sample data, we are releasing the filtered SkullGAN synthetic skulls that we used to generate our training data [here](https://figshare.com/articles/dataset/SkullGAN_Filtered_Synthetic_Skulls/28102670). The scripts used to filter this data (where we used an MSE distance measure to remove similar skulls and yield a set of 3,222 samples with higher diversity) is published in this repository under `training_data/00 - Skull Filtering.ipynb`. Lastly, the k-Wave script we used to generate our simulations is located at `training_data/gen/tusnet_sims.m` in this repository. 
+Along with this sample data, we are releasing the filtered SkullGAN synthetic skulls that we used to generate our training data [here](https://figshare.com/articles/dataset/SkullGAN_Filtered_Synthetic_Skulls/28102670). The scripts used to filter this data (where we used an MSE distance measure to remove similar skulls and yield a set of 3,222 samples with higher diversity) is published in this repository under `training_data/00 - Skull Filtering.ipynb`. Lastly, the k-Wave script we used to generate all of our simulations is located at `training_data/gen/tusnet_sims.m`. 
 
 ## Citation
 
