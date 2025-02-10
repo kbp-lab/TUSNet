@@ -20,8 +20,6 @@ Transcranial ultrasound (TUS) has emerged as a promising tool in clinical and re
 
 You can download the PyTorch weights for the models presented in the paper [here](https://figshare.com/articles/software/TUSNet_PyTorch_Model/28373912?file=52210781), with the `TUSNet - Inference.ipynb` notebook providing an overview of how to inference the model. All model training and evaluation functions are located in the `src/` folder. 
 
-_Coming soon!_
-
 ## Datasets
 
 A small subset of our primary training data is available [here](https://figshare.com/articles/dataset/TUSNet_Training_Simulations/28102640). The `inputs` consist of solely the Skull CT slices used for our simulations, while the `inputs_traced` contain these CTs plus the transducer and waveguides described in the paper (hence these samples comprise the complete input to the model), and finally the 'pfields' contain, in this order, the 512x512 pressure field, 80 dimensional phase correction vector, and scalar pressure field normalization factor (the maximum value present in the pressure field).
