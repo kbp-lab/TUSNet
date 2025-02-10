@@ -1,0 +1,13 @@
+IPython
+Pillow
+cv2
+mat73
+matplotlib
+natsort
+numpy
+psutil
+pytz
+scipy
+skimage
+torch
+tqdm
